@@ -1,0 +1,11 @@
+,Resource_Type,ResourceID,date
+1,AWS::EC2::Instance,"['i-0303414e8cd5865c0', 'i-066189a9744d6ec3a', 'i-089772e9e1906ad02']",2023-03-10
+2,AWS::EC2::InternetGateway,['igw-082d2f709fb46e0c1'],2023-03-10
+3,AWS::EC2::NetworkAcl,['acl-09d6463116ca6874d'],2023-03-10
+4,AWS::EC2::NetworkInterface,"['eni-011b59f865f162856', 'eni-020dc0690f3e6a20e', 'eni-061cabcf0e433f314']",2023-03-10
+5,AWS::EC2::RouteTable,['rtb-0bf37f5bb938ce786'],2023-03-10
+6,AWS::EC2::SecurityGroup,"['sg-0056aa002fd81c496', 'sg-014d3be3fb7e16872', 'sg-087fe725d638099cf', 'sg-0b8f402642ccea7fb']",2023-03-10
+7,AWS::EC2::Subnet,"['subnet-00411fd2c8840890e', 'subnet-08cffe1b0ae1f9b88', 'subnet-0f3206884d9698f40']",2023-03-10
+8,AWS::EC2::Volume,"['vol-036f5e09497c71819', 'vol-0a6914dd0377cb8de', 'vol-0cb8e382bb271a77e']",2023-03-10
+9,AWS::EC2::VPC,['vpc-03e53262faff38c42'],2023-03-10
+10,AWS::S3::Bucket,"['config-bucket-561123858318', 'mybucket-123421']",2023-03-10
