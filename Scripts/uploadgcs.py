@@ -6,12 +6,12 @@ from google.oauth2 import service_account
 '''
 
 def gcs_upload_file():
-    KEY_PATH = "../gcp_sa_key/pj-3tier-data-9415424f663b.json"
+    KEY_PATH = "../gcp_sa_key/pj-k8s-f59b8185e976.json"
     credentials = service_account.Credentials.from_service_account_file(KEY_PATH)
     client = storage.Client(credentials = credentials, project = credentials.project_id)
 
     buckets = list(client.list_buckets())
-    bucket_name = "test_234212"
+    bucket_name = "gcs-get-resource"
 
     bucket = client.get_bucket(bucket_name)
     blob_name = "resource_list.csv"
